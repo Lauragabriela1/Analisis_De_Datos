@@ -1,0 +1,7 @@
+id,name,email,age,join_date
+1,Alice,alice@example.com,30,2023-01-15
+2,Bob,bob@example.com,25,2023-02-20
+3,Charlie,charlie@example.com,,2023-03-10
+4,Alice,alice@example.com,30,2023-01-15
+5,,diana@example.com,28,2023-04-05
+6,Eve,eve@example.com,22,

@@ -1,0 +1,3 @@
+line1: This is a note.
+line2: Another note.
+line3: Important information.
