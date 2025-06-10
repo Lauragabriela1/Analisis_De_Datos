@@ -13,9 +13,9 @@ def get_table_name(filename: str) -> str:
 def main():
     print("Iniciando la aplicación de carga de datos...")
 
-    # 1.Se inicializa el motor de la base de datos
+    # 1.Se inicializa el motor de la base de datos y se verifica la conexión
     engine = get_engine()
-    initialize_database(engine) # Verifica la conexión a la Base de datos
+    initialize_database(engine) 
     data_persister = DataPersister(engine)
 
     # 2.Se escanea el directorio de archivos
